@@ -1,0 +1,23 @@
+[
+    {
+        "id": 4,
+        "name": "30mb",
+        "price": 35000,
+        "img": "https://www.gowinternet.com.ar/images/30mega.png",
+        "cant": 1
+    },
+    {
+        "id": 5,
+        "name": "50mb",
+        "price": 50000,
+        "img": "./50mega.png",
+        "cant": 1
+    },
+    {
+        "id": 6,
+        "name": "100mb",
+        "price": 70000,
+        "img": "./100mg.jpg",
+        "cant": 1
+    }
+]

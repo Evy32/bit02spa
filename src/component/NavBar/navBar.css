@@ -1,0 +1,104 @@
+.navContenedor {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navIzq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navIzq img {
+    width: 10rem;
+}
+
+.navIzq .navbar {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1rem;
+    color: #333;
+}
+
+.navIzq .navbar a {
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.navIzq .navbar a:hover,
+.navIzq .navbar a:focus {
+    color: white;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.navDer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.2rem 1.5rem;
+}
+
+.navDer .login,
+.navDer .btnCarrito {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+}
+
+.navDer .login:hover,
+.navDer .btnCarrito:hover,
+.navDer .login:focus,
+.navDer .btnCarrito:focus {
+    color: white;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.navDer svg {
+
+    width: 2rem;
+    height: 2rem;
+}
+
+.navDer .login {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.btnCarrito {
+    display: flex;
+    position: relative;
+
+}
+
+.navDer .itemsTotal {
+    position: absolute;
+    right: 0px;
+    top: -8px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    width: 2rem;
+    text-align: center;
+}
+
+.navDer .login:hover .itemsTotal,
+.navDer .btnCarrito:hover .itemsTotal,
+.navDer .login:focus .itemsTotal,
+.navDer .btnCarrito:focus .itemsTotal {
+    background-color: white;
+    color: #333;
+    border: 1px solid #333333a6;
+}

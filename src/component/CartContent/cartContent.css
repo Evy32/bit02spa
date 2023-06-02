@@ -1,0 +1,68 @@
+.cartContenedor {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #333;
+}
+
+.cartLista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 70%;
+    border-radius: 2rem;
+    padding: 1.5rem;
+
+}
+
+.cartLista h2 {
+    font-size: 2rem;
+}
+
+.cartLista .cartObjeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cartObjeto img {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.cartObjeto h3,
+.cartObjeto h4 {
+    width: 8rem;
+}
+
+.cartObjeto .price {
+    justify-self: flex-end;
+}
+
+.cartObjeto .nombre {
+    font-size: 1.5rem;
+}
+
+.btnContador {
+    cursor: pointer;
+    color: #777;
+}
+
+.btnContador:hover {
+    color: #b3b1b1;
+}
+
+.btnContador:active {
+    color: #333;
+}
+
+.btnContador svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}

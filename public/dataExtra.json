@@ -1,0 +1,23 @@
+[
+    {
+        "id": 7,
+        "name": "HBO+",
+        "price": 25000,
+        "img": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/07/HBO-MAX-PRUEBA.jpg?fit=2500%2C1500&quality=50&strip=all&ssl=1",
+        "cant": 1
+    },
+    {
+        "id": 8,
+        "name": "Paramount+",
+        "price": 20000,
+        "img": "https://boxtv.com.mx/wp-content/uploads/2022/05/estrenos-de-junio-2022-en-paramount-plus.webp",
+        "cant": 1
+    },
+    {
+        "id": 9,
+        "name": "DGO+",
+        "price": 30000,
+        "img": "https://skycms.s3.amazonaws.com/images/0/dtvgo.jpg",
+        "cant": 1
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Triple Plan",
+        "price": 100000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsMAMNSrO81-ePOA6xmAu_10RPp3PkQBCjOeKgOChD0eIvNfdW_9ug8RU5252rXUH2JLc&usqp=CAU",
+        "cant": 1
+    },
+    {
+        "id": 2,
+        "name": "Duo Plan",
+        "price": 70000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB4abFfnreJBU1j0Hhq_z7bWGHG8FKEqIOWeF9J4rsm41TQHPy0-CIvJqMdrBBt6WVaEA&usqp=CAU",
+        "cant": 1
+    },
+    {
+        "id": 3,
+        "name": "Internet",
+        "price": 50000,
+        "img": "https://www.latercera.com/resizer/Te7G8Snk3onu7V_i0Gh3jrKf2pM=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/4GKL2POJQZFTJNCCCIY7Q2GBOQ.jpg",
+        "cant": 1
+    }
+]
